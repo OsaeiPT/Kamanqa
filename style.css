@@ -1,0 +1,145 @@
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar {
+    border-bottom: #c0392b 3px solid;
+    opacity: .7;
+  }
+
+  #home-section {
+    background: url('img/0.-Portadav2.jpeg') no-repeat;
+    min-height: 65vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .dark-overlay {
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+  }
+  
+  .home-inner {
+    padding-top: 200px;
+  }
+
+  .display-5{
+      color: white;
+  }
+
+  .display-3{
+      color: white;
+  }
+
+  .linea-blue{
+    background-color: rgb(199, 227, 240);
+    border-bottom: 2px solid rgb(59, 104, 134);
+    width: 60px;
+    margin-left: 0px;
+}
+
+  .span-segundo{
+    color: rgb(0, 57, 83);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.span-parrafo-segundo{
+    margin-top: 20px;
+    color: white;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.img{
+    background-image: url("img/Kamanqa_02.jpg") ;
+    min-height: 28vh;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 15px;
+}
+
+.img-top-20{
+    margin-top: 40px;
+}
+
+.parrafo-segundo{
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(0, 57, 83);
+}
+
+.img-plantilla-blue{
+    background-image: url("img/backgroundreperiblegris.jpg");
+    margin-top: -52px;
+}
+
+.titulo-img-plantilla-blue{
+    color: white;
+    font-size:20px;
+    margin-top: 0px;
+}
+
+.parrafo-img-plantilla-blue{
+    color: white;
+    font-weight: 600;
+}
+
+.back-dark{
+    background-color: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.img-procesando{
+    background-image: url("img/Kamanqa_01.jpg");
+    min-height: 28vh;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.titulo-info{
+    color: rgb(8, 54, 77);
+}
+
+.parrafo-info{
+    line-height: 26px;
+    color: rgb(8, 54, 77);
+}
+
+.parrafo-info{
+    line-height: 26px;
+    color: rgb(8, 54, 77);
+}
+
+.back-darkwhite{
+    background-color: rgba(22, 21, 21, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+@media screen and (max-width:480px){
+
+#home-section{
+    min-height: 115vh;
+}
+
+.color-secondary{
+    background-color: #6c757d!important;
+}
+
+}
+
+
+
